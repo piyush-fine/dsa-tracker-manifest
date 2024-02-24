@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: server
-        image: upwarpiyush/major-proj-server:latest
+        image: upwarpiyush/dsa-tracker-server:latest
