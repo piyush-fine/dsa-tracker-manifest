@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: upwarpiyush/dsa-tracker-frontend:31
+        image: upwarpiyush/dsa-tracker-frontend:32
