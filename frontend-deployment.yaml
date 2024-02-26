@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: upwarpiyush/dsa-tracker-frontend:latest
+        image: upwarpiyush/dsa-tracker-frontend:${BUILD_NUMBER}
