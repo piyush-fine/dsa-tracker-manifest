@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: server
-        image: upwarpiyush/dsa-tracker-server:${BUILD_NUMBER}
+        image: upwarpiyush/dsa-tracker-server:31
