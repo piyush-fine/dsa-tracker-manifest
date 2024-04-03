@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: dsa-tracker-application
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/piyush-fine/dsa-tracker-manifest.git
+    targetRevision: HEAD
+    path: ""
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: myapp
+
+  SyncPolicy:
+    syncOptions:
+      - CreateNamespace=true
+    automated:
+      prune: true
+      selfHeal: true
