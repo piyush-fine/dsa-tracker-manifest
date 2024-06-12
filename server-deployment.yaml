@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: server
-        image: upwarpiyush/dsa-tracker-server:66
+        image: upwarpiyush/dsa-tracker-server:69
